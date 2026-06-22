@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio PPG Prajabatan - Calon Guru Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🎓</span>
+                <span class="logo-text">PPG Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Beranda</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Tentang</a></li>
+                <li class="nav-item"><a href="#karanganyar" class="nav-link">Karanganyar</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Pendidikan</a></li>
+                <li class="nav-item"><a href="#artifak" class="nav-link">Artifak</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Galeri</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">
+                    <span class="title-blue">Selamat Datang</span>
+                    <br>
+                    <span class="title-white">Portfolio PPG Prajabatan</span><br>
+                    <span class="title-blue">Mukti Muhtadi</span><br>
+                    <span class="title-white">NIM 2501640500</span><br>
+                </h1>
+                <p class="hero-subtitle fade-in-delay">
+                    Generasi Baru Guru Indonesia yang Profesional, Berdedikasi, dan Berkomitmen
+                </p>
+                <div class="hero-buttons fade-in-delay-2">
+                    <a href="#about" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-delay">
+                <div class="image-wrapper">
+                    <div class="floating-shape shape-1"></div>
+                    <div class="floating-shape shape-2"></div>
+                    <div class="floating-shape shape-3"></div>
+                    <img src="images/profile.jpg" alt="Mukti Muhtadi" class="teacher-photo">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang Saya</h2>
+                <p class="section-subtitle">Mengenal lebih dekat calon guru profesional</p>
+            </div>
+            <div class="about-content">
+                <div class="about-card slide-in-left">
+                    <div class="card-icon">🎯</div>
+                    <h3>Visi</h3>
+                    <p>Menjadi guru profesional yang mampu mencetak generasi berkarakter dan berprestasi</p>
+                </div>
+                <div class="about-card slide-in-up">
+                    <div class="card-icon">💡</div>
+                    <h3>Misi</h3>
+                    <p>Mengembangkan metode pembelajaran inovatif dan berpusat pada peserta didik</p>
+                </div>
+                <div class="about-card slide-in-right">
+                    <div class="card-icon">❤️</div>
+                    <h3>Nilai</h3>
+                    <p>Integritas, profesionalisme, dan kepedulian terhadap pendidikan Indonesia</p>
+                </div>
+            </div>
+            <div class="about-description fade-in">
+                <p>
+                    Perkenalkan, saya Mukti Muhtadi, mahasiswa Pendidikan Profesi Guru, bidang studi Bahasa Indonesia, Universitas Muhammadiyah Purwokerto. Saya lahir di Kabupaten Karanganyar, pada tanggal 13 Juni 2000. Sebelum mengikuti PPG, saya belajar di S1 program studi Pendidikan Bahasa dan Sastra Indonesia, Fakultas Bahasa, Seni, dan Budaya, Universitas Negeri Yogyakarta. Semoga saya dapat menjalani program PPG ini sampai selesai.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Karanganyar Section -->
+    <section class="section karanganyar-section" id="karanganyar">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kabupaten Karanganyar</h2>
+                <p class="section-subtitle">Tanah kelahiran yang penuh keindahan dan sejarah</p>
+            </div>
+            
+            <div class="karanganyar-content">
+                <div class="karanganyar-grid">
+                    <div class="karanganyar-card slide-in-left">
+                        <div class="card-icon">🏛️</div>
+                        <h3>Sejarah</h3>
+                        <p>Nama Karanganyar berasal dari pedukuhan yang diberikan oleh Raden Mas Said (Mangkunagara I). Di tempat ini, ia menemukan kemantapan akan perjanjian baru setelah memakan wahyu keraton dalam wujud burung Derkuku. Pada zaman kolonial, wilayah ini dikenal sebagai Kadipatèn Mangkunagaran.</p>
+                    </div>
+                    
+                    <div class="karanganyar-card slide-in-up">
+                        <div class="card-icon">👨‍💼</div>
+                        <h3>Pemerintahan</h3>
+                        <p>Kabupaten Karanganyar dipimpin oleh Bupati <strong>Rober Christanto</strong> bersama Wakil Bupati <strong>Adhe Eliana</strong>. Kabupaten ini memiliki 17 kecamatan, 15 kelurahan, dan 162 desa dengan luas wilayah 775,44 km².</p>
+                    </div>
+                    
+                    <div class="karanganyar-card slide-in-right">
+                        <div class="card-icon">🗺️</div>
+                        <h3>Lokasi</h3>
+                        <p>Kabupaten Karanganyar terletak di Provinsi Jawa Tengah, berbatasan dengan Kabupaten Sragen di utara, Kabupaten Magetan dan Ngawi di timur, Kabupaten Wonogiri di selatan, serta Kabupaten Boyolali, Kota Surakarta, dan Kabupaten Sukoharjo di barat.</p>
+                    </div>
+                </div>
+
+                <div class="map-container fade-in">
+                    <h3>Peta Kabupaten Karanganyar</h3>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126527.67890123456!2d110.8!3d-7.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3f8f8f8f8f8f!2sKabupaten+Karanganyar!5e0!3m2!1sid!2sid!4v1234567890" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0; border-radius: 15px;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="tourism-section fade-in">
+                    <h3>Tempat Wisata Populer</h3>
+                    <div class="tourism-grid">
+                        <div class="tourism-item">
+                            <div class="tourism-icon">💧</div>
+                            <h4>Grojogan Sewu</h4>
+                            <p>Air terjun indah di Tawangmangu dengan ketinggian 80 meter</p>
+                        </div>
+                        <div class="tourism-item">
+                            <div class="tourism-icon">🏭</div>
+                            <h4>De' Tjolomadoe</h4>
+                            <p>Bekas pabrik gula yang diubah menjadi pusat budaya dan kreativitas</p>
+                        </div>
+                        <div class="tourism-item">
+                            <div class="tourism-icon">✈️</div>
+                            <h4>Taman Dirgantara Edupark</h4>
+                            <p>Wisata edukasi dengan koleksi pesawat terbang</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lawu-section fade-in">
+                    <h3>Keindahan Gunung Lawu</h3>
+                    <div class="lawu-content">
+                        <div class="lawu-description">
+                            <p>Gunung Lawu adalah gunung berapi yang terletak di perbatasan Jawa Tengah dan Jawa Timur, dengan ketinggian 3.265 mdpl. Gunung ini memiliki keindahan alam yang memukau dengan hutan yang masih terjaga, air terjun, dan pemandangan sunrise yang spektakuler.</p>
+                            <p>Gunung Lawu juga memiliki nilai spiritual yang tinggi, dengan banyak tempat ziarah dan situs bersejarah di lerengnya seperti Candi Cetho dan Candi Sukuh.</p>
+                        </div>
+                        <div class="lawu-race">
+                            <div class="race-card">
+                                <div class="race-icon">🏃</div>
+                                <h4>Siksorogo Lawu Ultra</h4>
+                                <p>Siksorogo Lawu Ultra (SLU) adalah acara lari trail dan ultramaraton tahunan yang diselenggarakan di kawasan Gunung Lawu sejak tahun 2019. Lomba ini dikenal sebagai "race impian para pecinta trail running" karena menawarkan medan menantang dengan panorama Gunung Lawu yang indah.</p>
+                                <p>Peserta dapat memilih berbagai kategori jarak mulai dari 7KM hingga 120KM, dengan rute yang mengelilingi keindahan lereng Gunung Lawu. Event ini menjadi bukti keindahan alam Karanganyar yang dapat dinikmati melalui olahraga ekstrem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Riwayat Pendidikan</h2>
+                <p class="section-subtitle">Perjalanan akademik menuju profesionalisme</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item slide-in-left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - Sekarang</div>
+                        <h3>PPG Prajabatan</h3>
+                        <p class="timeline-institution">Kementerian Pendidikan Dasar dan Menengah</p>
+                        <p>Program pendidikan profesi guru dengan fokus pada pengembangan kompetensi pedagogik dan profesional</p>
+                    </div>
+                </div>
+                <div class="timeline-item slide-in-right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - 2024</div>
+                        <h3>Sarjana Pendidikan</h3>
+                        <p class="timeline-institution">Universitas Negeri</p>
+                        <p>Lulus dengan predikat Cum Laude, spesialisasi dalam pendidikan dan pembelajaran</p>
+                    </div>
+                </div>
+                <div class="timeline-item slide-in-left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2017 - 2020</div>
+                        <h3>Sekolah Menengah Atas</h3>
+                        <p class="timeline-institution">SMA Negeri Unggulan</p>
+                        <p>Aktif dalam organisasi dan kegiatan ekstrakurikuler</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artifak Section -->
+    <section class="section artifak-section" id="artifak">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Artifak</h2>
+                <p class="section-subtitle">Dokumentasi dan hasil karya selama PPG</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Guru Berprestasi</h3>
+                    <p>Juara 2 Lomba Inovasi Pembelajaran Tingkat Provinsi 2024</p>
+                </div>
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-icon">📚</div>
+                    <h3>Sertifikasi</h3>
+                    <p>Sertifikat Kompetensi Pedagogik dan Profesional PPG</p>
+                </div>
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-icon">💻</div>
+                    <h3>Teknologi</h3>
+                    <p>Mahir dalam pembelajaran berbasis teknologi dan LMS</p>
+                </div>
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-icon">🌍</div>
+                    <h3>Bahasa</h3>
+                    <p>Aktif dalam Bahasa Indonesia dan Bahasa Inggris</p>
+                </div>
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-icon">🎨</div>
+                    <h3>Kreativitas</h3>
+                    <p>Mengembangkan media pembelajaran kreatif dan interaktif</p>
+                </div>
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-icon">🤝</div>
+                    <h3>Kepemimpinan</h3>
+                    <p>Pengalaman sebagai ketua organisasi mahasiswa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri Kegiatan</h2>
+                <p class="section-subtitle">Dokumentasi perjalanan PPG dan pengalaman mengajar</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">📖</span>
+                        <p>Kegiatan Belajar</p>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">🏫</span>
+                        <p>Praktik Mengajar</p>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">👥</span>
+                        <p>Diskusi Kelompok</p>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">🎯</span>
+                        <p>Workshop PPG</p>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">📝</span>
+                        <p>Uji Kompetensi</p>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">🎓</span>
+                        <p>Wisuda PPG</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hubungi Saya</h2>
+                <p class="section-subtitle">Mari berkolaborasi untuk kemajuan pendidikan</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info slide-in-left">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>email@contoh.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+62 812 3456 7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Lokasi</h4>
+                            <p>Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form slide-in-right">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Portfolio PPG Prajabatan. Semua Hak Dilindungi.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">📸</a>
+                    <a href="#" class="social-link">💼</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
